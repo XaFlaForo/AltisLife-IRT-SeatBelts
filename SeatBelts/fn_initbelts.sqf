@@ -14,6 +14,6 @@
 scriptName "IRT_fnc_beltsinit: main";
 scopeName "main";
 
-//--- Add EVH
-player addEventHandler ["GetOutMan",{ [] call IRT_fnc_SeatbeltOff;   } ];
-player addEventHandler ["GetInMan", {  [] call IRT_fnc_SeatbeltOff;  } ];
+//--- EVH
+player addEventHandler ["GetInMan", {_this call IRT_fnc_onSeatbeltOff;}];
+player addEventHandler ["GetInMan", {_this call IRT_fnc_onSeatbeltOn;}];
