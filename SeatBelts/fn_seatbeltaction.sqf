@@ -16,7 +16,7 @@ scopeName "main";
 
 //--- Check Conditions
 if (life_action_inUse) then {
-    breakOut "main";
+    breakOut "main"
 };
 
 //--- Excecute Functions

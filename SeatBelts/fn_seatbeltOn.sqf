@@ -22,7 +22,7 @@ IRT_seatbelt = true;
 
 //--- Define Hint
 if (vehicle player != player) then {
-   breakOut "main"
+   breakOut "main";
 };
 
 _text = parseText ("<t color='#f00000ff' size='1.5'>You have put your seatbelt on!</t>");

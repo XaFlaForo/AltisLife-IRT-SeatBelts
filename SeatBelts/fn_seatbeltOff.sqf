@@ -1,5 +1,5 @@
 /*
-    File: fn_seatbeltOn.sqf
+    File: fn_seatbeltOff.sqf
 
     Author: Ethan (XaLaForo)
 
@@ -22,10 +22,10 @@ IRT_seatbelt = false;
 
 //--- Define Hint
 if (vehicle player != player) then {
-  breakOut "main"
+   breakOut "main";
 };
 
-_text = parseText ("<t color='#f00000ff' size='1.5'>You have taken your seatbelt off!</t>");
+_text = parseText ("<t color='#f00000ff' size='1.5'>You have put your seatbelt on!</t>");
 hint format ["%1", _text];
 
 //--- Show Belt Icon
