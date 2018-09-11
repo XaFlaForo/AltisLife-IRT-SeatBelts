@@ -13,17 +13,17 @@ To install any script with (IRT) in its name you must install this dependency fi
 <br/> 
 
 
-<b> Step 2: GO TO IRT_Functions.hpp AND PASTE THE CODE IN </b>
+<b> Step 2.1: GO TO IRT_Functions.hpp AND PASTE THE CODE IN </b>
 
 <br/> 
+#include "SeatBelts\Functions.hpp"
+<br/> 
 
-class Belts { <br/> 
-        file = "IRT\SeatBelts"; <br/> 
-        class initbelts {}; <br/> 
-        class seatbeltaction {}; <br/>  
-        class seatbeltOff {}; <br/> 
-        class seatbeltOn {}; <br/> 
-}; <br/> 
+<b> Step 2.2: GO TO IRT_Config.hpp AND PASTE THE CODE IN </b>
+
+<br/> 
+#include "SeatBelts\config.hpp"
+<br/> 
 
 <br/> 
 
@@ -42,7 +42,7 @@ class Belts { <br/>
 
 
 <br/> 
-<b> Step 4: GO TO  AND PASTE THE CODE BELOW </b>
+<b> Step 4: GO TO initPlayerLocal.sqf AND PASTE THE CODE BELOW </b>
 
 <br/> 
 <br/> 
